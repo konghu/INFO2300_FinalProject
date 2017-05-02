@@ -40,7 +40,7 @@
 
 <div id="navBar" class="col-md-12">
 
-	<div class="col-md-1 col-md-offset-1">
+	<div class="col-md-1 col-md-offset-2">
 
 		<a href="index.php">Home</a>
 	</div>
