@@ -21,6 +21,7 @@
             <div class="item">
                 <img class="headerSlides" src="img/Postcard.jpeg" alt="test">
             </div>
+            
         </div>
 
         <!-- Left and right controls -->
@@ -34,6 +35,8 @@
         </a>
         <h1> First Presbyterian Church of Waterloo
         </h1>
+    
+        
     </div>
 
 
