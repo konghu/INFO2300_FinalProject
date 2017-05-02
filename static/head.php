@@ -14,6 +14,7 @@
 
 <!--Custom CSS for all pages-->
 <link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/albums.css">
 
 <style>@import 'https://fonts.googleapis.com/css?family=Lato|Merriweather';</style>
 

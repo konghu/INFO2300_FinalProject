@@ -1,0 +1,10 @@
+.upload{
+bottom: 15px;
+    right:15px;
+    position: absolute;
+}
+
+.data{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+}

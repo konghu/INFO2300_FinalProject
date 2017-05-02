@@ -15,7 +15,7 @@
             </div>
 
             <div class="item">
-                <img class="headerSlides" src="img/window.jpg" alt="test">
+                <img class="headerSlides" src="img/Window.jpg" alt="test">
             </div>
 
             <div class="item">
@@ -39,7 +39,9 @@
 
 
 <div id="navBar" class="col-md-12">
-	<div class="col-md-1 col-md-offset-2">
+
+	<div class="col-md-1 col-md-offset-1">
+
 		<a href="index.php">Home</a>
 	</div>
 	<div class="col-md-1">
@@ -49,7 +51,8 @@
         <a href="albums.php">Photo Gallery</a>
     </div>
     <div class="col-md-1">
-        <a href="contact.php">Contact</a>
+        <a href="contact.php">Contact/Feedback Form</a>
+
     </div>
     <div class="col-md-1">
         <a href="location.php">Location</a>

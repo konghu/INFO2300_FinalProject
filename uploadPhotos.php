@@ -10,6 +10,8 @@
 
 <body>
 
+<!--Gets static navigation bar-->
+<?php require 'static/navigation.php';?>
 
 <!--Gets static PHP functions-->
 <?php require 'static/main.php';?>
@@ -23,27 +25,41 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
 ?>
 
-<form action="uploadPhotos.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="newphoto" />
-    <p class="info">Note</p>
-    <input type="text" name="note" placeholder="Note"/>
+<div class="upload col-md-2 col-md-offset-5">
+    <form action="uploadPhotos.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="newphoto" />
+        <BR>
+        <BR>
 
-    <select name="album">
-        <?php
-            $albums = $mysqli->query("select * from events");
-            while ($album = $albums->fetch_assoc()) {
-                ?>
-                <option value=<?php echo $album['albumID']?>><?php echo $album['date']?></option>
-                <?php
-            }
-        ?>
-    </select>
 
-    <br>
-    <input type="submit" name="upload"/>
-</form>
+            <label for="inputsm">Caption</label>
+        <input class="form-control input-sm" type="text" name="note" placeholder="Caption for this photo"/>
+
+
+        <BR>
+        <BR>
+
+
+        <select name="album">
+            <?php
+                $albums = $mysqli->query("select * from albums");
+                while ($album = $albums->fetch_assoc()) {
+                    ?>
+                    <option value=<?php echo $album['albumID']?>><?php echo $album['date']?></option>
+                    <?php
+                }
+            ?>
+        </select>
+
+
+        <br>
+        <BR>
+        <input type="submit" name="upload"/>
+    </form>
+</div>
 
 <?php
+
 
 if (isset($_POST['upload'])) {
 
@@ -51,6 +67,7 @@ if (isset($_POST['upload'])) {
     if (!empty($_FILES['newphoto'])) {
 
         $newPhoto = $_FILES['newphoto'];
+        $albumID =
 
         //sanitize originalName for URL
         $originalName = $newPhoto['name'];
