@@ -14,6 +14,8 @@
 <body>
     <div class="header">
         <img src="images/C_windows.jpeg" alt="This should be a picture of windows">
+        <h1> TITLE IS HERE Y
+        </h1>
     </div>
      <div id="nav_bar">
          <a>Buttons </a>
