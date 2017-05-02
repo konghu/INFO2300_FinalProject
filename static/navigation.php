@@ -39,33 +39,33 @@
 
 
 <div id="navBar" class="col-md-12">
-	<div class="col-md-2 col-md-offset-2">
+	<div class="col-md-1 col-md-offset-2">
 		<a href="index.php">Home</a>
 	</div>
-	<div class="col-md-2">
+	<div class="col-md-1">
 			<a href="history.php">History</a>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-1">
         <a href="albums.php">Photo Gallery</a>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-1">
         <a href="contact.php">Contact/Feedback Form</a>
     </div>
-    <div class="col-md-5">
+    <div class="col-md-1">
         <a href="location.php">Location</a>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-1">
         <a href="eventcalendar.php">Calendar</a>
     </div>
-     <div class="col-md-7">
+     <div class="col-md-1">
         <a href="staff.php">Who We Are</a>
     </div>
-     <div class="col-md-8">
+     <div class="col-md-1">
         <a href="minutes.php">Meeting Minutes</a>
     </div>
 </div>
 
-<!--            --><?php
+<!--           --><?php
 
 //greet user and provide logout if user is logged in
 
