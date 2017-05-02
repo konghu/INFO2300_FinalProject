@@ -10,6 +10,8 @@
 </head>
 
   <body>
+      
+      <div id="content"> 
 
     <!--Gets static navigation bar-->
 	<?php require 'static/navigation.php';?>
@@ -83,6 +85,8 @@
 	if(!isset($_SESSION["logged_user"])){
 // log in form		
 
+        
+        
 		echo"<h3>Log In Form</h3>";
 		echo"<form action='index.php' method='post'>";
 		echo"<div>Username:  <input type='text' name='username' /> </div><br>";
@@ -92,7 +96,7 @@
 	}
 
 	?>
-
+</div>
 </body>
 </html>
 
