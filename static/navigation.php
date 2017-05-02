@@ -41,13 +41,13 @@
 		<a href="index.php">Home</a>
 	</div>
 	<div class="col-md-2">
-			<a href="index.php">History</a>
+			<a href="history.php">History</a>
     </div>
     <div class="col-md-2">
         <a href="albums.php">Photo Gallery</a>
     </div>
     <div class="col-md-4">
-        <a href="index.php">Contact</a>
+        <a href="contact.php">Contact</a>
     </div>
 </div>
 
