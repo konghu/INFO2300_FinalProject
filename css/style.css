@@ -22,6 +22,7 @@ h1{
     top: 100px;
     width: 100%;
     text-align: center;
+    color: white;
     
 }
 
@@ -35,8 +36,8 @@ body {
     margin-right: auto;
     margin-bottom: 1em;
     margin-left: auto;
-    padding-bottom: 0.5em;
-    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-top: 1em;
     background-color:#ccf6ef;
     display: block;
     width: 100%;
