@@ -32,12 +32,16 @@
             <span class="glyphicon glyphicon-chevron-right"></span>
             <span class="sr-only">Next</span>
         </a>
+        <h1> First Presbyterian Church of Waterloo
+        </h1>
     </div>
 
 
 
 <div id="navBar" class="col-md-12">
+
 	<div class="col-md-1 col-md-offset-1">
+
 		<a href="index.php">Home</a>
 	</div>
 	<div class="col-md-1">
@@ -48,6 +52,7 @@
     </div>
     <div class="col-md-1">
         <a href="contact.php">Contact/Feedback Form</a>
+
     </div>
     <div class="col-md-1">
         <a href="location.php">Location</a>
@@ -63,7 +68,7 @@
     </div>
 </div>
 
-<!--            --><?php
+<!--           --><?php
 
 //greet user and provide logout if user is logged in
 

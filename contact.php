@@ -14,7 +14,7 @@
     <!--Gets static navigation bar-->
 	<?php require 'static/navigation.php';?>
 
-
+<div id="content">
 		<?php
 
 	$nameBlank = $emailBlank = $commentBlank = "";
@@ -67,7 +67,7 @@
 		E-mail: <input type="text" name="email" value="<?php echo $email;?>">
 		<span class="error">* <?php echo $emailBlank;?></span>
 		<br><br>
-		Comment/Event Feedback: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
+		Comment/Event Feedback: <br><textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
 		<span class="error">* <?php echo $commentBlank;?></span>
 		<br><br>
 		<input type="submit" name="submit" value="Submit">  
@@ -88,7 +88,7 @@
 	}
 	?>
 
-
+</div>
 </body>
 </html>
 
