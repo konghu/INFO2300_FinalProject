@@ -21,6 +21,7 @@
             <div class="item">
                 <img class="headerSlides" src="img/Postcard.jpeg" alt="test">
             </div>
+
         </div>
 
         <!-- Left and right controls -->
@@ -34,59 +35,57 @@
         </a>
         <h1> First Presbyterian Church of Waterloo
         </h1>
+
+
     </div>
 
 
 
-<div id="navBar" class="col-md-12">
+    <div id="navBar" class="col-md-12">
 
-	<div class="col-md-1 col-md-offset-1">
+        <div class="col-md-1 col-md-offset-2">
 
-		<a href="index.php">Home</a>
-	</div>
-	<div class="col-md-1">
-			<a href="history.php">History</a>
+            <a href="index.php">Home</a>
+        </div>
+        <div class="col-md-1">
+            <a href="history.php">History</a>
+        </div>
+        <div class="col-md-1">
+            <a href="albums.php">Photo Gallery</a>
+        </div>
+        <div class="col-md-1">
+            <a href="contact.php">Contact</a>
+
+        </div>
+        <div class="col-md-1">
+            <a href="location.php">Location</a>
+        </div>
+        <div class="col-md-1">
+            <a href="eventcalendar.php">Calendar</a>
+        </div>
+        <div class="col-md-1">
+            <a href="staff.php">Who We Are</a>
+        </div>
+        <div class="col-md-1">
+            <a href="minutes.php">Meeting Minutes</a>
+        </div>
     </div>
-    <div class="col-md-1">
-        <a href="albums.php">Photo Gallery</a>
-    </div>
-    <div class="col-md-1">
-        <a href="contact.php">Contact/Feedback Form</a>
 
-    </div>
-    <div class="col-md-1">
-        <a href="location.php">Location</a>
-    </div>
-    <div class="col-md-1">
-        <a href="eventcalendar.php">Calendar</a>
-    </div>
-     <div class="col-md-1">
-        <a href="staff.php">Who We Are</a>
-    </div>
-     <div class="col-md-1">
-        <a href="minutes.php">Meeting Minutes</a>
-    </div>
-</div>
-
-<!--           --><?php
-
-//greet user and provide logout if user is logged in
-
-//        TODO: Login
-
-//if (isset($_SESSION['logged_user'])) {
-//    echo '<div class="section">';
-//    echo 'WELCOME, ' . $_SESSION['logged_user'] . '!';
-//    echo '</div>';
-//
-//    echo '<div class="section">';
-//    echo '<a href="logout.php"> Log Out</a>';
-//    echo '</div>';
-//}
-//user is not logged in, give a link
-//            else {
-//                echo '<div class="section">';
-//                echo '<a href="login.php"> Log In</a>';
-//                echo '</div>';}
-//?>
-
+    <!--           --><?php
+    //greet user and provide logout if user is logged in
+    //        TODO: Login
+    //if (isset($_SESSION['logged_user'])) {
+    //    echo '<div class="section">';
+    //    echo 'WELCOME, ' . $_SESSION['logged_user'] . '!';
+    //    echo '</div>';
+    //
+    //    echo '<div class="section">';
+    //    echo '<a href="logout.php"> Log Out</a>';
+    //    echo '</div>';
+    //}
+    //user is not logged in, give a link
+    //            else {
+    //                echo '<div class="section">';
+    //                echo '<a href="login.php"> Log In</a>';
+    //                echo '</div>';}
+    //?>

@@ -18,6 +18,10 @@
 
 
     <div class="col-md-12">
+
+        <div class="row">
+
+
     <?php
     require_once 'static/config.php';
     $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
@@ -29,11 +33,14 @@
         $viewPhotos = $mysqli->query("select * from photos where photoID = '".$photoID."' ");
         $viewPhoto = $viewPhotos->fetch_assoc();
         ?>
-        <img class="rounded mx-auto d-block" src="<?php echo $viewPhoto['url']?>">
+        <div class="col-md-4">
+            <img style="width: 100%" class="rounded mx-auto d-block" src="<?php echo $viewPhoto['url']?>">
+        </div>
         <?php
     }
 
     ?>
+        </div>
     </div>
 
 </body>

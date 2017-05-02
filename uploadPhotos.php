@@ -81,7 +81,7 @@ if (isset($_POST['upload'])) {
             move_uploaded_file($tempName, "img/$originalName");
             $url = "img/$originalName";
             echo $url;
-            echo $_POST['album'];
+            $aID = $_POST['album'];
             echo $_POST['note'];
             $note = $_POST['note'];
             $mysqli->query("INSERT INTO photos VALUES (DEFAULT, '$note', '$url')");
@@ -90,7 +90,7 @@ if (isset($_POST['upload'])) {
             $t = $test->fetch_assoc();
             $photoID = $t ["count(*)"];
 
-            $mysqli->query("INSERT INTO contains VALUES (DEFAULT, '1', '$photoID' )");
+            $mysqli->query("INSERT INTO contains VALUES (DEFAULT, '$aID', '$photoID' )");
 
 
         }

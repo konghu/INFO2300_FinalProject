@@ -1,4 +1,4 @@
-.upload{
+.functions{
 bottom: 15px;
     right:15px;
     position: absolute;
@@ -7,4 +7,5 @@ bottom: 15px;
 .data{
     font-family: 'Merriweather', serif;
     font-size: 30px;
+    display: inline;
 }

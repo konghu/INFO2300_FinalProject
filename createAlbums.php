@@ -35,8 +35,11 @@ echo '
 if (isset($_POST['submit'])) {
     //Get injection-safe _POST data
     $caption = htmlentities($_POST['caption']);
+    $date = htmlentities($_POST['date']);
 
-    $insertAlbums = $mysqli->query("INSERT INTO albums (caption) VALUES ('$caption')");
+    $insertAlbums = $mysqli->query("INSERT INTO albums VALUES (DEFAULT , '$caption','$date', '0' )");
+
+    $mysqli->query("update albums set minuteID = albumID ");
 
     echo("<br> Album successfully added.");
 }
