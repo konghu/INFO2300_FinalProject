@@ -11,11 +11,15 @@
 </head>
 
   <body>
+      
 
     <!--Gets static navigation bar-->
   <?php require 'static/navigation.php';?>
+          <div id="content">
 
  <?
+          
+          
     echo"<br>";
     if(isset($_SESSION["logged_user"])){
 
@@ -155,6 +159,6 @@ if(!isset($_POST['submit_logout'])){
 
   ?>
 
-
+</div>
 </body>
 </html>
