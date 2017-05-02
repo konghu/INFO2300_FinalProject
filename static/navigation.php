@@ -49,6 +49,12 @@
     <div class="col-md-4">
         <a href="index.php">Contact</a>
     </div>
+    <div class="col-md-5">
+        <a href="location.php">Location</a>
+    </div>
+    <div class="col-md-6">
+        <a href="eventcalendar.php">Calendar</a>
+    </div>
 </div>
 
 <!--            --><?php
