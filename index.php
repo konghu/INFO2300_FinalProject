@@ -15,7 +15,9 @@
     <div class="header">
         <img src="images/C_windows.jpeg" alt="This should be a picture of windows">
     </div>
-     
+     <div id="nav_bar">
+         <a>Buttons </a>
+    </div>
     
 </body>
 
