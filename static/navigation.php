@@ -49,7 +49,7 @@
         <a href="albums.php">Photo Gallery</a>
     </div>
     <div class="col-md-1">
-        <a href="contact.php">Contact/Feedback Form</a>
+        <a href="contact.php">Contact</a>
     </div>
     <div class="col-md-1">
         <a href="location.php">Location</a>

@@ -1,6 +1,7 @@
 <?php session_start();?>
 
 <!DOCTYPE html>
+<html lang="en">
 <head>
 
     <!--Gets static head and required assets-->
@@ -12,6 +13,8 @@
 
 <!--Gets static navigation bar-->
 <?php require 'static/navigation.php';?>
+    
+    <div id="content">
 
 <!--Gets static PHP functions-->
 <?php require 'static/main.php';?>
