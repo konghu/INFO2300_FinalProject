@@ -67,13 +67,13 @@ if (isset($_POST['upload'])) {
             echo $_POST['album'];
             echo $_POST['note'];
             $note = $_POST['note'];
-            $mysqli->query("INSERT INTO photos VALUES (DEFAULT, '$note', '$url' );");
+            $mysqli->query("INSERT INTO photos VALUES (DEFAULT, '$note', '$url')");
 
             $test = $mysqli->query("select count(*) from photos");
             $t = $test->fetch_assoc();
             $photoID = $t ["count(*)"];
 
-            $mysqli->query("INSERT INTO contains VALUES (DEFAULT, '1', '$photoID' );");
+            $mysqli->query("INSERT INTO contains VALUES (DEFAULT, '1', '$photoID' )");
 
 
         }

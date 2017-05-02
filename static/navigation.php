@@ -47,13 +47,19 @@
         <a href="albums.php">Photo Gallery</a>
     </div>
     <div class="col-md-4">
-        <a href="contact.php">Contact</a>
+        <a href="contact.php">Contact/Feedback Form</a>
     </div>
     <div class="col-md-5">
         <a href="location.php">Location</a>
     </div>
     <div class="col-md-6">
         <a href="eventcalendar.php">Calendar</a>
+    </div>
+     <div class="col-md-7">
+        <a href="staff.php">Who We Are</a>
+    </div>
+     <div class="col-md-8">
+        <a href="minutes.php">Meeting Minutes</a>
     </div>
 </div>
 
