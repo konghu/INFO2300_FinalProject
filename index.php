@@ -11,13 +11,14 @@
 
   <body>
       
-      <div id="content"> 
+       
 
     <!--Gets static navigation bar-->
 	<?php require 'static/navigation.php';?>
 
-
+<div id="content">
 	<?
+      
 	echo"<br>";
 	if(isset($_SESSION["logged_user"])){
 
