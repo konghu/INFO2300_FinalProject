@@ -62,7 +62,7 @@
 		if ( $result && $result->num_rows == 1) {
 			$row = $result->fetch_assoc();
 			$db_hash_password = $row[ 'hashpassword' ];
-			if( password_verify($post_password, $hash ) ) {
+			if( password_verify($post_password, $db_hash_password ) ) {
 				$_SESSION['logged_user'] = $post_username;
 			}
 		}

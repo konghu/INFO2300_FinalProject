@@ -40,7 +40,6 @@
     </div>
 
 
-
     <div id="navBar" class="col-md-12">
 
         <div class="col-md-1 col-md-offset-2">
@@ -71,21 +70,22 @@
         </div>
     </div>
 
-    <!--           --><?php
-    //greet user and provide logout if user is logged in
-    //        TODO: Login
-    //if (isset($_SESSION['logged_user'])) {
-    //    echo '<div class="section">';
-    //    echo 'WELCOME, ' . $_SESSION['logged_user'] . '!';
-    //    echo '</div>';
-    //
-    //    echo '<div class="section">';
-    //    echo '<a href="logout.php"> Log Out</a>';
-    //    echo '</div>';
-    //}
-    //user is not logged in, give a link
-    //            else {
-    //                echo '<div class="section">';
-    //                echo '<a href="login.php"> Log In</a>';
-    //                echo '</div>';}
-    //?>
+</div>
+<!--           --><?php
+//greet user and provide logout if user is logged in
+//        TODO: Login
+//if (isset($_SESSION['logged_user'])) {
+//    echo '<div class="section">';
+//    echo 'WELCOME, ' . $_SESSION['logged_user'] . '!';
+//    echo '</div>';
+//
+//    echo '<div class="section">';
+//    echo '<a href="logout.php"> Log Out</a>';
+//    echo '</div>';
+//}
+//user is not logged in, give a link
+//            else {
+//                echo '<div class="section">';
+//                echo '<a href="login.php"> Log In</a>';
+//                echo '</div>';}
+//?>
