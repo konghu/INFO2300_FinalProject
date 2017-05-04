@@ -121,7 +121,7 @@ if(!isset($_POST['submit_logout'])){
             if ($newPhoto[ 'error' ] == 0 ) {
               $tempName = $newPhoto[ 'tmp_name' ];
               move_uploaded_file( $tempName, "minute/$originalName");
-              //$value_list =  $value_list.",'".$originalName."'";
+              $value_list =  $value_list.",'".$originalName."'";
   //DOESN'T WORK YET
               $mysqli->query("INSERT INTO minutes VALUES (DEFAULT, $value_list)");
            
