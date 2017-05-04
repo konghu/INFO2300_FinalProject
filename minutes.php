@@ -109,8 +109,8 @@ if(!isset($_POST['submit_logout'])){
 
         if (!empty($_FILES['newphoto']['name'])){
           $FileType = pathinfo($originalName, PATHINFO_EXTENSION);
-          if ($FileType != "pdf" && $FileType != "doc" && $FileType != "docx"){
-            echo"The file type is not supported. (only supports .pdf .doc or .docx) Minutes not uploaded.";
+          if ($FileType != "txt" && $FileType != "doc" && $FileType != "docx"){
+            echo"The file type is not supported. (only supports .txt .doc or .docx) Minutes not uploaded.";
             echo"<br>";
             return NULL;
           }else if(file_exists($path)){
@@ -141,12 +141,13 @@ if(!isset($_POST['submit_logout'])){
     }
 
   $result = $mysqli->query("SELECT * FROM minutes");
-  print_r( $mysqli);
 
   while ( $row = $result->fetch_assoc() ) {
    
     echo"Overview: $row[overview]<br>";
     echo"lecturer: $row[lecturer]<br>";
+    echo("<a href='min.php?min_id=".$row['minuteID']."'>
+      < src='minute/".$row['path']."' alt='Meme'></a><br>");
    
   }
   
