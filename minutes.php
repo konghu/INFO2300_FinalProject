@@ -162,4 +162,6 @@ if(!isset($_POST['submit_logout'])){
 
 </div>
 </body>
+
+<?php require 'static/footer.php';?>
 </html>

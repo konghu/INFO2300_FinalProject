@@ -20,8 +20,10 @@
 
         Quisque ut velit condimentum, semper velit et, molestie lorem. Ut feugiat purus aliquam feugiat gravida. Sed placerat faucibus nibh, ac feugiat nisi fringilla sit amet. Proin in mauris facilisis, ullamcorper lorem id, lacinia elit. Sed lacinia blandit nunc, et ultrices mauris varius vel. Donec facilisis vulputate dui, et scelerisque arcu viverra quis. Morbi accumsan, justo quis pulvinar aliquet, dolor tortor tincidunt ipsum, laoreet elementum orci mauris eu eros. Proin venenatis lectus eu est ultrices tristique. Aliquam sagittis erat ipsum, et tempus leo consequat id. Maecenas malesuada nisi vitae commodo facilisis. Aenean eleifend sit amet odio in viverra. Duis urna quam, tincidunt ac sem eu, venenatis blandit nisl. Cras non elit tempus urna suscipit consequat. Pellentesque in facilisis eros. Maecenas pellentesque tortor sed purus pulvinar placerat. Aenean eget eros dictum, ultricies augue eu, euismod arcu.</p>
 
-
 </div>
+
 </body>
+
+<?php require 'static/footer.php';?>
 </html>
 

@@ -17,8 +17,6 @@
 	<?php require 'static/navigation.php';?>
 
 <div id="content">
-    <p> 315-539-3535 </p>
-    <p>Sunday Worship 10 AM </p>
 	<?
       
 	echo"<br>";
@@ -99,6 +97,10 @@
 	}
 
 	?>
+</div>
+
+
+    <?php require 'static/footer.php';?>
 </div>
 </body>
 </html>

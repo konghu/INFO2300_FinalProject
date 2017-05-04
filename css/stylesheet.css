@@ -74,3 +74,12 @@ h3 {
     margin-bottom: 5em;
 
 }
+
+.footer{
+    background-color: #999999;
+    padding: 10px;
+}
+
+.footer p{
+    color:rgb(33, 33, 30);
+}
