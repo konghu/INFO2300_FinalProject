@@ -17,6 +17,8 @@
 <link rel="stylesheet" href="css/stylesheet.css">
 <link rel="stylesheet" href="css/albums.css">
 
+<script src="js/js.js"></script>
+
 <style>@import 'https://fonts.googleapis.com/css?family=Lato|Merriweather';</style>
 
 

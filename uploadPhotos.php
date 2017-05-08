@@ -71,7 +71,7 @@ if (isset($_POST['upload'])) {
 
         //sanitize originalName for URL
         $originalName = $newPhoto['name'];
-        $originalName = filter_var($originalName, FILTER_SANITIZE_URL);
+        $originalName = filter_var($originalName, FILTER_SANITIZE_STRING);
 
 
         //check that there are no errors

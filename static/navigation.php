@@ -1,13 +1,23 @@
 <!-- Static navigation bar for all pages. -->
 <div class="headerWrapper">
 
-        <h1> First Presbyterian Church of Waterloo
-        </h1>
+    <div class="slider" id="main-slider"><!-- outermost container element -->
+        <div class="slider-wrapper"><!-- innermost wrapper element -->
+            <img src="img/Window.jpg" alt="First" class="slide" /><!-- slides -->
+            <img src="img/Postcard.jpeg" alt="Second" class="slide" />
+            <img src="img/ChristWindows.jpg" alt="Third" class="slide" />
+        </div>
+    </div>
+
     <div class="loginButton">
+
         <a href="login.php">Login</a>
     </div>
 
-    </div>
+    <h1> First Presbyterian Church of Waterloo
+        </h1>
+
+</div>
 
 
     <div id="navBar" class="col-md-12">

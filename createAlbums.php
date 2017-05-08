@@ -35,6 +35,8 @@ echo '
 if (isset($_POST['submit'])) {
     //Get injection-safe _POST data
     $caption = htmlentities($_POST['caption']);
+    $caption = filter_var($caption, FILTER_SANITIZE_STRING);
+
     $date = htmlentities($_POST['date']);
 
     $insertAlbums = $mysqli->query("INSERT INTO albums VALUES (DEFAULT , '$caption','$date', '0' )");
