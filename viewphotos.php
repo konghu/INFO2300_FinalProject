@@ -34,7 +34,7 @@
         $viewPhoto = $viewPhotos->fetch_assoc();
         ?>
         <div class="col-md-4">
-            <img style="width: 100%" class="rounded mx-auto d-block" src="<?php echo $viewPhoto['url']?>">
+            <img style="width: 100%" src="<?php echo $viewPhoto['url']?>">
         </div>
         <?php
     }
@@ -44,6 +44,5 @@
     </div>
 
 </body>
-
 <?php require 'static/footer.php';?>
 </html>

@@ -34,7 +34,7 @@ if(!isset($_POST['submit_logout'])){
 }
   }
   if(!isset($_SESSION["logged_user"])){
-    echo"<form action= 'index.php' method='post'>";
+    echo "<form action= 'index.php' method='post'>";
     echo"<input type='submit' name='submit_logout' value='Log In' class='please'>";
     echo"</form>";
   }
@@ -142,10 +142,13 @@ if(!isset($_POST['submit_logout'])){
 
   $result = $mysqli->query("SELECT * FROM minutes");
 
+
   while ( $row = $result->fetch_assoc() ) {
    
     echo"Overview: $row[overview]<br>";
     echo"lecturer: $row[lecturer]<br>";
+    echo "$row[path]";
+    echo "$row[minuteID]";
     echo("<a href='min.php?min_id=".$row['minuteID']."'>
       < src='minute/".$row['path']."' alt='Meme'></a><br>");
    
@@ -162,6 +165,5 @@ if(!isset($_POST['submit_logout'])){
 
 </div>
 </body>
-
 <?php require 'static/footer.php';?>
 </html>

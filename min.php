@@ -50,7 +50,7 @@
 		}
 	}
 	if(!isset($_SESSION["logged_user"])){
-		echo"<form action= 'index.php' method='post'>";
+		echo "<form action= 'index.php' method='post'>";
 		echo"<input type='submit' name='submit_logout' value='Log In' class='please'>";
 		echo"</form>";
 	}
@@ -64,38 +64,23 @@
 
 	$result = $mysqli -> query("SELECT * FROM minutes WHERE minutes.minuteID = $wantID");
 	while ( $row = $result->fetch_assoc() ) {
-		//$data_file_name = "'minute/".$row['path']."'";
-		$data_file_name ='why.txt';
+		$data_file_name = "minute/".$row['path']."";
+//		$data_file_name ="minute/'why.txt'";
 		print ($data_file_name);
 
-		
-		$file_pointer = fopen( $data_file_name,'r');
 
-		if (!$file_pointer) {  
-			print( 'error' );  
-			exit;
-		}
-		$all_options = array();
-		while(!feof( $file_pointer)){
-			$line=fgets($file_pointer);
-			print ($line);
-		}
+        $file = fopen($data_file_name,"r");
 
-		fclose( $file_pointer );
-		if (!is_array($all_options)){
-			print("<p>There was an error reading the file $data_file_name</p>");
-			exit;
-		}
+        while(! feof($file))
+        {
+            echo fgets($file). "<br />";
+        }
+
+        fclose($file);
+
+
 	}
-	// 		$data_file_name = 'why.txt';
-	// 		$file_pointer = fopen( $data_file_name,'r');
-	// 		print("should've opened");
 
-	// 	if (!$file_pointer) {  
-	// 		print( 'error' );  
-	// 		exit;
-	// 	}
-	// 	}
 
 ?>
 </body>

@@ -101,5 +101,5 @@ if (isset($_POST['upload'])) {
 }
 ?>
 </body>
-
+<?php require 'static/footer.php';?>
 </html>

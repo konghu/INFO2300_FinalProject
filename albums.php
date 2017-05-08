@@ -28,6 +28,52 @@
         $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
         ?>
+
+        <?php
+        echo $_SESSION['logged_user'];
+
+        if (isset($_SESSION['logged_user'])) {
+            //display forms
+//                echo '
+//            <div class="functions">
+//                <div class="create">
+//                    <a href="createAlbums.php">Create</a>
+//                </div>
+//                <div class="upload">
+//                    <a href="uploadPhotos.php">Upload</a>
+//                </div>
+//            </div>'
+
+
+            echo '<div class="upload">
+            <form action="createAlbums.php" method="post">
+                <input type="text" name="caption" placeholder="Caption">
+                <input type="date" name="date">
+                <p class="info">Caption</p>
+                <input class="submit" name="submit" type="submit" value="Submit">
+            </form>'
+            ;}
+
+
+        ?>
+    </div>
+
+    <?php
+    if (isset($_POST['submit'])) {
+        //Get injection-safe _POST data
+        $caption = htmlentities($_POST['caption']);
+        $date = htmlentities($_POST['date']);
+
+        $insertAlbums = $mysqli->query("INSERT INTO albums VALUES (DEFAULT , '$caption','$date', '0' )");
+
+        $mysqli->query("update albums set minuteID = albumID ");
+
+        echo("<br> Album successfully added.");
+    }
+
+    ?>
+
+
         <div class="row">
 
             <?php
@@ -48,9 +94,9 @@
                 $viewPhoto = $viewPhotos->fetch_assoc();
                 ?>
                 <div class="col-md-6">
-                    <div class="col-md-12">
+                    <div class="col-md-10">
                         <a href="viewphotos.php?aid=<?php echo $albumID; ?>">
-                            <img style="height: 350px; width: 600px" class="img-thumbnail"
+                            <img class="thumbnail"
                                  src="<?php echo $viewPhoto['url'] ?>">
                         </a>
                     </div>
@@ -66,16 +112,6 @@
             }
 
             ?>
-
-            <!--TODO: Login-->
-            <div class="functions">
-                <div class="create">
-                    <a href="createAlbums.php">Create</a>
-                </div>
-                <div class="upload">
-                    <a href="uploadPhotos.php">Upload</a>
-                </div>
-            </div>
         </div>
     </div>
 </div>
