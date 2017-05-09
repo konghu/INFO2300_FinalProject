@@ -109,8 +109,8 @@ if(!isset($_POST['submit_logout'])){
 
         if (!empty($_FILES['newphoto']['name'])){
           $FileType = pathinfo($originalName, PATHINFO_EXTENSION);
-          if ($FileType != "txt" && $FileType != "doc" && $FileType != "docx"){
-            echo"The file type is not supported. (only supports .txt .doc or .docx) Minutes not uploaded.";
+          if ($FileType != "txt"){
+            echo"The file type is not supported. (only supports .txt) Minutes not uploaded.";
             echo"<br>";
             return NULL;
           }else if(file_exists($path)){
