@@ -147,10 +147,11 @@ if(!isset($_POST['submit_logout'])){
    
     echo"Overview: $row[overview]<br>";
     echo"lecturer: $row[lecturer]<br>";
-    echo "$row[path]";
-    echo "$row[minuteID]";
-    echo("<a href='min.php?min_id=".$row['minuteID']."'>
-      < src='minute/".$row['path']."' alt='Meme'></a><br>");
+  //  echo "$row[path]";
+  //  echo "$row[minuteID]";
+    echo("<a href='min.php?min_id=".$row['minuteID']."'>".$row['path']." </a><br>");
+ //     < src=minute/".$row['path']."' alt='Meme'></a><br>");
+  //"<a class = 'one' href=".$row['image_credit'].">Original Picture Link </a>");
    
   }
   
