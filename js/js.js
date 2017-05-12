@@ -42,7 +42,7 @@
                 }
                 self._slideTo( self.index );
 
-            }, 2000);
+            }, 3000);
         },
         stopStart: function() {
             var self = this;

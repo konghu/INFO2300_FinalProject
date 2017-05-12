@@ -79,7 +79,8 @@ h3 {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 400px;
+    width: 350px;
+    height: 250px;
 }
 
 .thumbnail:hover {
@@ -88,12 +89,15 @@ h3 {
 
 .footer{
     background-color: darkslategrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .loginButton{
     top: 5px;
     right: 5px;
     position: absolute;
+    z-index: 9999999;
 }
 
 html,body {
@@ -101,9 +105,10 @@ html,body {
     padding: 0;
 }
 .slider {
-    width: 1024px;
-    margin: 2em auto;
-
+    width: 100%;
+    /*margin: auto;*/
+    margin-top: 0;
+    margin-bottom: auto;
 }
 
 .slider-wrapper {
@@ -123,4 +128,10 @@ html,body {
 
 .slider-wrapper > .slide:first-child {
     opacity: 1;
+}
+
+.photos{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 50px;
 }

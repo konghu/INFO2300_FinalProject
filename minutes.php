@@ -109,8 +109,8 @@ if(!isset($_POST['submit_logout'])){
 
         if (!empty($_FILES['newphoto']['name'])){
           $FileType = pathinfo($originalName, PATHINFO_EXTENSION);
-          if ($FileType != "txt"){
-            echo"The file type is not supported. (only supports .txt) Minutes not uploaded.";
+          if ($FileType != "txt" && $FileType != "doc" && $FileType != "docx"){
+            echo"The file type is not supported. (only supports .txt .doc or .docx) Minutes not uploaded.";
             echo"<br>";
             return NULL;
           }else if(file_exists($path)){
@@ -147,11 +147,10 @@ if(!isset($_POST['submit_logout'])){
    
     echo"Overview: $row[overview]<br>";
     echo"lecturer: $row[lecturer]<br>";
-  //  echo "$row[path]";
-  //  echo "$row[minuteID]";
-    echo("<a href='min.php?min_id=".$row['minuteID']."'>".$row['path']." </a><br>");
- //     < src=minute/".$row['path']."' alt='Meme'></a><br>");
-  //"<a class = 'one' href=".$row['image_credit'].">Original Picture Link </a>");
+    echo "$row[path]";
+    echo "$row[minuteID]";
+    echo("<a href='min.php?min_id=".$row['minuteID']."'>
+      < src='minute/".$row['path']."' alt='Meme'></a><br>");
    
   }
   

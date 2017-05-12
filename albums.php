@@ -73,7 +73,7 @@
     ?>
 
 
-        <div class="row">
+        <div class="wrapper">
 
             <?php
             //Display all albums

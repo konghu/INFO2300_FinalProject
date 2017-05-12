@@ -86,11 +86,13 @@ if (isset($_POST['upload'])) {
             $note = $_POST['note'];
             $mysqli->query("INSERT INTO photos VALUES (DEFAULT, '$note', '$url')");
 
-            $test = $mysqli->query("select count(*) from photos");
-            $t = $test->fetch_assoc();
-            $photoID = $t ["count(*)"];
+            $test = $mysqli->query("select * from photos");
+            $tempId = 0;
+            while ($t = $test->fetch_assoc()) {
+                $tempId = $t ["photoID"];
+            }
 
-            $mysqli->query("INSERT INTO contains VALUES (DEFAULT, '$aID', '$photoID' )");
+            $mysqli->query("INSERT INTO contains VALUES (DEFAULT, '$aID', '$tempId' )");
 
 
         }
