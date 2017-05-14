@@ -17,7 +17,7 @@
 	<?php require 'static/navigation.php';?>
 
 <div id="content">
-    <p>The First Presbyterian Church of Waterloo is a moderate size congregation located in the Finger Lakes. </p>
+    <p>The First Presbyterian Church of Waterloooooooo is a moderate size congregation located in the Finger Lakes. </p>
 
     <div id="map">
         <script>
