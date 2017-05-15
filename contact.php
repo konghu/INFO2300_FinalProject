@@ -16,10 +16,24 @@
 
 <div id="content">
     <div id="staff">
-        <h1>Staff Introduction</h1>
-        <img src="img/staff.jpg" alt="Church Secretary - Carol Gibbs ">
-        <p>Carol has been church secretary since January 2008, and a member of our church for over 50 years.  She and husband, Brent, live in Seneca Falls, and have owned the VanCleef Homestead Bed and Breakfast since August 2006.  They have two married children and two beautiful granddaughters.  Carol is a graduate of Freeman Business School, and her previous 35 years of employment experience included Seneca Army Depot and Phelps Family Dentistry.  She enjoys family time and tending to her flower gardens in her "spare" time! </p>
-    
+        <h1> Staff Introduction </h1>
+        <div class="Row">
+            <div class="Cell">
+                <img src="img/staff_sarah.jpg" alt="Church Pastor - Rev. Sarah West">
+            </div>
+            <div class="Cell">
+                <p>Has been serving as our pastor since 2007. She has a B.A. in English from Bethany College as well as a M.Div. and M.A. in Social Service Administration from the University of Chicago. She is an ordained minister in the Christian Church (Disciples of Christ) with dual standing in the United Church of Christ. She and her husband and their three children live in Ithaca, NY.  In her free time Sarah enjoys going for walks in the woods, music, dancing, reading and baking.</p>
+            </div>
+        </div>
+        <div class="Row">
+            <div class="Cell">
+                <img src="img/staff_carol.jpg" alt="Church Secretary - Carol Gibbs">
+            </div>
+            <div class="Cell">
+                <p>Carol has been church secretary since January 2008, and a member of our church for over 50 years.  She and husband, Brent, live in Seneca Falls, and have owned the VanCleef Homestead Bed and Breakfast since August 2006.  They have two married children and two beautiful granddaughters.  Carol is a graduate of Freeman Business School, and her previous 35 years of employment experience included Seneca Army Depot and Phelps Family Dentistry.  She enjoys family time and tending to her flower gardens in her "spare" time! </p>
+            </div>
+        </div>
+    </div>
     <div id="contact form">
 		<?php
 

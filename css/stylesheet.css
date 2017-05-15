@@ -149,3 +149,38 @@ staff{
     margin-left:40px;
     margin-right: 40px;
 }
+
+.Table
+{
+    display: table;
+}
+.Title
+{
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.Heading
+{
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+}
+.Row
+{
+    display: table-row;
+}
+.Cell
+{   
+    margin-top: 10px;
+    display: table-cell;
+    border: none;
+    border-width: thin;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Cell > img{
+    height: 300px;
+}
