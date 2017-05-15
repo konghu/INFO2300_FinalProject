@@ -90,5 +90,6 @@
 
 </div>
 </body>
+<?php require 'static/footer.php';?>
 </html>
 
