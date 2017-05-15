@@ -104,7 +104,7 @@
             $message= "Name: ".$name."\n\n"."Email: ".$email."\n\n"."Comment: ".$comment;
             echo $messageDisplayed;
             mail($to, $subj, $message);
-            echo"<h1>Thank you for your input! It will be taken into consideration!</h1>";
+            echo"<h1>Thank you for your input! The Church has received your email and your input will be taken into consideration!</h1>";
         }
         ?>
     </div>
