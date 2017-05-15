@@ -30,7 +30,7 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
             if (isset($_SESSION['logged_user'])) {
 
                 ?>
-                <div class="delete">
+                <div class="hiddenContent">
             		<form action="viewphotos.php?aid=<?php echo $_GET['aid']?>" method="post">
                         <input type="submit" name="delete" value="Delete This Album" />
 		            </form>
@@ -56,10 +56,10 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
             }
 
 
-                $delete2 = $mysqli->query("DELETE FROM contains WHERE albumID = '".$_GET['aid']."' ");
+                $delete3 = $mysqli->query("DELETE FROM contains WHERE albumID = '".$_GET['aid']."' ");
 
                 //feedback
-                if ($delete && $delete2) {
+                if ($delete && $delete2 && delete3) {
                     echo ('<div class="notice">Album deleted successfully. <a href="albums.php">Go Back</a></div>');
                     return;
                 } else {

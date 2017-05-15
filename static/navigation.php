@@ -23,22 +23,33 @@
 
 <div id="navBar" class="col-md-12">
 
-    <div class="col-md-2 col-md-offset-1">
+    <div class="col-md-2">
 
         <a href="index.php">Home</a>
     </div>
+
     <div class="col-md-2">
-        <a href="albums.php">Photo</a>
+        <a href="albums.php">Photos</a>
     </div>
+
+    <?php
+
+    //provide upload photo feature if user is logged in
+    if (isset($_SESSION['logged_user'])) {
+        echo '<div class="col-md-2">
+        <a href="uploadPhotos.php">Upload Photos</a>
+        </div>';
+    }
+    ?>
+
+
     <div class="col-md-2">
         <a href="contact.php">Contact</a>
     </div>
     <div class="col-md-2">
         <a href="eventcalendar.php">Calendar</a>
     </div>
-    <!--        <div class="col-md-1">-->
-    <!--            <a href="staff.php">Who We Are</a>-->
-    <!--        </div>-->
+
     <div class="col-md-2">
         <a href="minutes.php">Meeting Minutes</a>
     </div>

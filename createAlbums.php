@@ -23,7 +23,7 @@ require_once 'static/config.php';
 $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
 echo '
-        <div class="upload">
+        <div class="hiddenContent">
             <form action="createAlbums.php" method="post">
                 <input type="text" name="caption" placeholder="Caption">
                 <input type="date" name="date">
@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) {
 
     $mysqli->query("update albums set minuteID = albumID ");
 
-    echo("<br> Album successfully added.");
+    echo("<div class='hiddenContent'> Album successfully added. </div>");
 }
 
 ?>

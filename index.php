@@ -19,10 +19,13 @@
 <div id="content">
     <p>The First Presbyterian Church of Waterloo is a moderate size congregation located in the Finger Lakes. </p>
 
+
+    <p>Please include staff headshots and description here (Kong)</p>
+
     <div id="map">
         <script>
             function initMap() {
-                var uluru = {lat: 42.501588, lng: -92.333287};
+                var uluru = {lat: 42.5014, lng: -92.333287};
                 var map = new google.maps.Map(document.getElementById('map'), {
                     zoom: 13,
                     center: uluru

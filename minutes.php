@@ -34,7 +34,7 @@ if(!isset($_POST['submit_logout'])){
 }
   }
   if(!isset($_SESSION["logged_user"])){
-    echo "<form action= 'index.php' method='post'>";
+    echo "<form action= 'login.php' method='post'>";
     echo"<input type='submit' name='submit_logout' value='Log In' class='please'>";
     echo"</form>";
   }
@@ -158,7 +158,8 @@ if(!isset($_POST['submit_logout'])){
 
   }
   else {
-    print "<p>Please login to use this feature</p>";
+    print "<p>Please login to use this feature</p>
+<p>Mahima, the meeting minutes should still be shown without logging in. Only upload feature is hidden. (Kong)  </p>";
   }
 
   ?>

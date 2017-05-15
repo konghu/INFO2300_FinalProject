@@ -25,7 +25,7 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
 ?>
 
-<div class="upload col-md-2 col-md-offset-5">
+<div class="upload col-md-2 col-md-offset-5 hiddenContent">
     <form action="uploadPhotos.php" method="post" enctype="multipart/form-data">
         <input type="file" name="newphoto" />
         <BR>
@@ -67,7 +67,6 @@ if (isset($_POST['upload'])) {
     if (!empty($_FILES['newphoto'])) {
 
         $newPhoto = $_FILES['newphoto'];
-        $albumID =
 
         //sanitize originalName for URL
         $originalName = $newPhoto['name'];
@@ -80,9 +79,7 @@ if (isset($_POST['upload'])) {
             $tempName = $newPhoto['tmp_name'];
             move_uploaded_file($tempName, "img/$originalName");
             $url = "img/$originalName";
-            echo $url;
             $aID = $_POST['album'];
-            echo $_POST['note'];
             $note = $_POST['note'];
             $mysqli->query("INSERT INTO photos VALUES (DEFAULT, '$note', '$url')");
 
@@ -95,6 +92,7 @@ if (isset($_POST['upload'])) {
             $mysqli->query("INSERT INTO contains VALUES (DEFAULT, '$aID', '$tempId' )");
 
 
+            print("Photo successfully uploaded.\n");
         }
     } //error
     else {

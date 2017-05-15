@@ -14,8 +14,6 @@
     <!--Gets static navigation bar-->
     <?php require 'static/navigation.php'; ?>
 
-    <div id="content">
-
         <!--Gets static PHP functions-->
         <?php require 'static/main.php'; ?>
 
@@ -44,18 +42,18 @@
 //            </div>'
 
 
-            echo '<div class="upload">
+            echo '<div class="hiddenContent">
             <form action="createAlbums.php" method="post">
                 <input type="text" name="caption" placeholder="Caption">
                 <input type="date" name="date">
-                <p class="info">Caption</p>
                 <input class="submit" name="submit" type="submit" value="Submit">
-            </form>'
+            </form>
+           
+            </div>'
             ;}
 
 
         ?>
-    </div>
 
     <?php
     if (isset($_POST['submit'])) {
@@ -67,7 +65,7 @@
 
         $mysqli->query("update albums set minuteID = albumID ");
 
-        echo("<br> Album successfully added.");
+        echo("<div class='hiddenContent'> Album successfully added. </div>");
     }
 
     ?>
@@ -92,8 +90,8 @@
                 $viewPhotos = $mysqli->query("select * from photos where photoID = '" . $photoID . "' ");
                 $viewPhoto = $viewPhotos->fetch_assoc();
                 ?>
-                <div class="col-md-6">
-                    <div class="col-md-10">
+                <div class="col-md-5 col-md-offset-1">
+                    <div class="col-md-12">
                         <a href="viewphotos.php?aid=<?php echo $albumID; ?>">
                             <img class="thumbnail"
                                  src="<?php echo $viewPhoto['url'] ?>">
