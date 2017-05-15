@@ -15,6 +15,12 @@
 	<?php require 'static/navigation.php';?>
 
 <div id="content">
+    <div id="staff">
+        <h1>Staff Introduction</h1>
+        <img src="img/staff.jpg" alt="Church Secretary - Carol Gibbs ">
+        <p>Carol has been church secretary since January 2008, and a member of our church for over 50 years.  She and husband, Brent, live in Seneca Falls, and have owned the VanCleef Homestead Bed and Breakfast since August 2006.  They have two married children and two beautiful granddaughters.  Carol is a graduate of Freeman Business School, and her previous 35 years of employment experience included Seneca Army Depot and Phelps Family Dentistry.  She enjoys family time and tending to her flower gardens in her "spare" time! </p>
+    
+    <div id="contact form">
 		<?php
 
 	$nameBlank = $emailBlank = $commentBlank = "";
@@ -57,37 +63,37 @@
 	}
 	?>
 
-	<h1>Contact Form</h1>
+        <h1>Contact Form</h1>
 
-	<p><span class="error padding">*Required fields.</span></p>
-	<form class="align" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-		Name: <input type="text" name="name" value="<?php echo $name;?>">
-		<span class="error">* <?php echo $nameBlank;?></span>
-		<br><br>
-		E-mail: <input type="text" name="email" value="<?php echo $email;?>">
-		<span class="error">* <?php echo $emailBlank;?></span>
-		<br><br>
-		Comment/Event Feedback: <br><textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
-		<span class="error">* <?php echo $commentBlank;?></span>
-		<br><br>
-		<input type="submit" name="submit" value="Submit">  
-		<br><br>
-	</form>
-	<!-- PHP Conditionals -->
-	<?php
-	if ((!empty($_POST["email"]))&&(filter_var($email, FILTER_VALIDATE_EMAIL))&&(!empty($_POST["comment"]))&&(!empty($_POST["name"]))){
-		echo "<p class='padding'>Your Submission:</p>";
-		//mail function
-		$to='mds349@cornell.edu';
-		$subj='User Submission';
-		$messageDisplayed= "Name: ".$name."<br>"."Email: ".$email."<br>"."Comment: ".$comment;
-		$message= "Name: ".$name."\n\n"."Email: ".$email."\n\n"."Comment: ".$comment;
-		echo $messageDisplayed;
-		mail($to, $subj, $message);
-		echo"<h1>Thank you for your input! It will be taken into consideration!</h1>";
-	}
-	?>
-
+        <p><span class="error padding">*Required fields.</span></p>
+        <form class="align" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+            Name: <input type="text" name="name" value="<?php echo $name;?>">
+            <span class="error">* <?php echo $nameBlank;?></span>
+            <br><br>
+            E-mail: <input type="text" name="email" value="<?php echo $email;?>">
+            <span class="error">* <?php echo $emailBlank;?></span>
+            <br><br>
+            Comment/Event Feedback: <br><textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
+            <span class="error">* <?php echo $commentBlank;?></span>
+            <br><br>
+            <input type="submit" name="submit" value="Submit">  
+            <br><br>
+        </form>
+        <!-- PHP Conditionals -->
+        <?php
+        if ((!empty($_POST["email"]))&&(filter_var($email, FILTER_VALIDATE_EMAIL))&&(!empty($_POST["comment"]))&&(!empty($_POST["name"]))){
+            echo "<p class='padding'>Your Submission:</p>";
+            //mail function
+            $to='mds349@cornell.edu';
+            $subj='User Submission';
+            $messageDisplayed= "Name: ".$name."<br>"."Email: ".$email."<br>"."Comment: ".$comment;
+            $message= "Name: ".$name."\n\n"."Email: ".$email."\n\n"."Comment: ".$comment;
+            echo $messageDisplayed;
+            mail($to, $subj, $message);
+            echo"<h1>Thank you for your input! It will be taken into consideration!</h1>";
+        }
+        ?>
+    </div>
 </div>
 </body>
 <?php require 'static/footer.php';?>

@@ -133,3 +133,19 @@ html,body {
 .calendar{
     text-align:center;
 }
+
+staff{
+  display: block;
+  margin: auto;
+}
+
+#staff > img {
+    height: 250px;
+    margin-left: 40px;
+}
+
+#staff > p {
+    margin-top: 20px;
+    margin-left:40px;
+    margin-right: 40px;
+}
