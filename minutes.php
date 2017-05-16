@@ -62,7 +62,8 @@ if(!isset($_POST['submit_logout'])){
     echo"Overview: <input type='text' name='name'>";
     echo"<br>";
      echo"<br>";
-    echo"Lecturer: <input type='text' name='caption'>";
+    echo"Notetaker: <input type='text' name='caption'>";
+     echo"<br>";
      echo"<br>";
 
     echo"<input type = 'submit' name='submit_add' class='help'>"; 
