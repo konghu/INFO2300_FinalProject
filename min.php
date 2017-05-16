@@ -66,7 +66,7 @@
 	while ( $row = $result->fetch_assoc() ) {
 		$data_file_name = "minute/".$row['path']."";
 //		$data_file_name ="minute/'why.txt'";
-		print ($data_file_name);
+		//print ($data_file_name);
 
 
         $file = fopen($data_file_name,"r");
