@@ -61,7 +61,9 @@ if(!isset($_POST['submit_logout'])){
     echo"<br>";
     echo"Overview: <input type='text' name='name'>";
     echo"<br>";
+     echo"<br>";
     echo"Lecturer: <input type='text' name='caption'>";
+     echo"<br>";
 
     echo"<input type = 'submit' name='submit_add' class='help'>"; 
     echo"<br><br>";
@@ -147,7 +149,7 @@ if(!isset($_POST['submit_logout'])){
   while ( $row = $result->fetch_assoc() ) {
    
     echo"Overview: $row[overview]<br>";
-    echo"lecturer: $row[lecturer]<br>";
+    echo"Notetaker: $row[lecturer]<br>";
     echo("<a href='min.php?min_id=".$row['minuteID']."'>".$row['path']." </a><br>");
     echo"<br>";
    

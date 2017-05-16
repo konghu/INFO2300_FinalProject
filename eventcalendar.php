@@ -28,15 +28,15 @@ community. We have many “regulars” as well as visitors who come to enjoy a h
 meal and socialize with one another.
         </p>
         <p>
-            <b>Harmony Food Pantry:</b> Open Saturdays from 10 am – 12 noon
+            <b>Harmony Food Pantry:</b> Open Saturdays from 10 am-12 noon
 
 Founded and directed by Josh McKimm, the Harmony Food Pantry was created to
 
 serve families who needed a pantry they could access on the weekend. The church
 
-serves as host site for this pantry which is open on Saturdays from 10am – 12 noon.
+serves as host site for this pantry which is open on Saturdays from 10am-12 noon.
 
-For more information please contact Josh McKimm or visit their facebook page
+<br>For more information please contact Josh McKimm or visit their facebook page
 
 (@harmonyfp).
         </p>

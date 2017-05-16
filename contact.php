@@ -62,6 +62,9 @@
 
         <h1>Contact Form</h1>
 
+        <p>Please contact us using this form and we will get back to you as soon as possible! Additionally, if you have
+            any feedback about our events or things you'd like to share, we'd love to take your input into consideration!</p><br>
+
         <p><span class="error padding">*Required fields.</span></p>
         <form class="align" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
             Name: <input type="text" name="name" value="<?php echo $name;?>">
