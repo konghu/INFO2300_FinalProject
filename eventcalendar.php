@@ -19,7 +19,7 @@
             Events
         </h1>
         <p>
-            Friday Free Lunch:
+            <b>Friday Free Lunch:</b>
 
 From September through June we provide a free meal every Friday for the
 
@@ -28,7 +28,7 @@ community. We have many “regulars” as well as visitors who come to enjoy a h
 meal and socialize with one another.
         </p>
         <p>
-            Harmony Food Pantry: Open Saturdays from 10 am – 12 noon
+            <b>Harmony Food Pantry:</b> Open Saturdays from 10 am – 12 noon
 
 Founded and directed by Josh McKimm, the Harmony Food Pantry was created to
 

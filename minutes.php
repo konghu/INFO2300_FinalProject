@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+
     <!--Gets static head and required assets-->
     <?php require 'static/head.php';?>
 
@@ -58,7 +58,9 @@ if(!isset($_POST['submit_logout'])){
 
     echo"<h3>Please fill out the entries below</h3>";
     echo"<input type='file' name='newphoto'>";
+    echo"<br>";
     echo"Overview: <input type='text' name='name'>";
+    echo"<br>";
     echo"Lecturer: <input type='text' name='caption'>";
 
     echo"<input type = 'submit' name='submit_add' class='help'>"; 
@@ -147,6 +149,7 @@ if(!isset($_POST['submit_logout'])){
     echo"Overview: $row[overview]<br>";
     echo"lecturer: $row[lecturer]<br>";
     echo("<a href='min.php?min_id=".$row['minuteID']."'>".$row['path']." </a><br>");
+    echo"<br>";
    
   }
   
