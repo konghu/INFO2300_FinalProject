@@ -45,7 +45,7 @@ For more information please contact Josh McKimm or visit their facebook page
         <h1>
             Calendar
         </h1>
-        <iframe src="https://calendar.google.com/calendar/embed?src=cornell.edu_ojkn840kmpjkaspqkjeiohqaa4%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cornell.edu_ojkn840kmpjkaspqkjeiohqaa4%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         <!-- once a css file is created, will move the style part to css -->
     
     </div>
