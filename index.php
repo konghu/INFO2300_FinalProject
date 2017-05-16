@@ -16,7 +16,7 @@
     <!--Gets static navigation bar-->
 	<?php require 'static/navigation.php';?>
 
-<div id="content">
+<div id="content"><br>
     <p>The First Presbyterian Church of Waterloo is a warm and welcoming community of
 
 faith located in the heart of downtown Waterloo, NY. We are dedicated to spreading
@@ -91,7 +91,7 @@ serves as host site for this pantry which is open on Saturdays from 10am – 12 
 For more information please contact Josh McKimm or visit their facebook page
 
 (@harmonyfp).
-    </p>
+    </p><br>
 
         <div id="staff">
             <h1> Staff Introduction </h1>
