@@ -10,7 +10,7 @@
 </head>
 
     <body>
-<div>
+
 
     <!--Gets static navigation bar-->
     <?php require 'static/navigation.php'; ?>
@@ -44,6 +44,7 @@
 
 
             echo '<div class="hiddenContent">
+            Create an Album
             <form action="createAlbums.php" method="post">
                 <input type="text" name="caption" placeholder="Caption">
                 <input type="date" name="date">
@@ -112,7 +113,6 @@
             ?>
         </div>
     </div>
-</div>
 
 </body>
 <?php require 'static/footer.php';?>
