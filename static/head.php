@@ -19,7 +19,7 @@
 
 <script src="js/js.js"></script>
 
-<style>@import 'https://fonts.googleapis.com/css?family=Lato|Merriweather';</style>
+<style>@import 'https://fonts.googleapis.com/css?family=Open+Sans';</style>
 
 
 
