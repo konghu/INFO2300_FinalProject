@@ -17,7 +17,79 @@
 	<?php require 'static/navigation.php';?>
 
 <div id="content">
-    <p>The First Presbyterian Church of Waterloo is a moderate size congregation located in the Finger Lakes. </p>
+    <p>The First Presbyterian Church of Waterloo is a warm and welcoming community of
+
+faith located in the heart of downtown Waterloo, NY. We are dedicated to spreading
+
+the love of God through service to our community and the nurturing of our
+
+congregation. </p>
+    
+    <h1>
+            What we do
+        </h1>
+    
+    <p>Worship:
+    </p>
+    <p>
+        Sunday services incorporate traditional liturgy and personal sharing in a relaxed
+
+and warm atmosphere. The music is a blend of traditional and contemporary styles.
+
+Children and youth are valued participants in our worship and we welcome their
+
+curious energy. Communion is celebrated the first Sunday of every month and on
+
+special holy days.
+    </p><br>
+    <p>Christian Education:
+    </p>
+    <p>
+        Sunday School – For grades 1-5 offered during worship
+
+Teen Group – For Middle and High School Youth offered during worship
+
+Ecumenical Bible Study – Fridays at 1 pm in the church lounge
+    </p><br>
+    <p>Community Outreach
+    </p>
+    <p>Friday Free Lunch:
+    </p>
+    <p>From September through June we provide a free meal every Friday for the
+
+community. We have many “regulars” as well as visitors who come to enjoy a hot
+
+meal and socialize with one another.
+    </p><br>
+    <p>
+        Betsy’s Playroom:
+    </p>
+    <p>Betsy’s playroom is a play space located at the Five Points Correctional Facility
+
+where small children can receive supervised care while their family members are
+
+visiting loved ones at the facility. It is named after Betsy Patsos whose vision it was
+
+to build and host this playroom. The church continues to coordinate a group of
+
+volunteers who staff the playroom on Saturdays during visiting hours. We are
+
+always looking for new volunteers willing to help with this important outreach
+
+effort.
+    </p><br>
+    <p>Harmony Food Pantry:
+    </p>
+    <p>Founded and directed by Josh McKimm, the Harmony Food Pantry was created to
+
+serve families who needed a pantry they could access on the weekend. The church
+
+serves as host site for this pantry which is open on Saturdays from 10am – 12 noon.
+
+For more information please contact Josh McKimm or visit their facebook page
+
+(@harmonyfp).
+    </p>
 
         <div id="staff">
             <h1> Staff Introduction </h1>
@@ -38,8 +110,6 @@
                 </div>
             </div>
         </div>
-
-    <p>Hours: </p>
 
     <div id="map">
         <script>
