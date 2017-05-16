@@ -23,7 +23,7 @@
 
 <div id="navBar" class="col-md-12">
 
-    <div class="col-md-2">
+    <div class="col-md-2 col-md-offset-1">
 
         <a href="index.php">Home</a>
     </div>
