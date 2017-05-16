@@ -1,6 +1,0 @@
-trillium|central campus|5|BRBs|Burrito
-terrace|central campus|5|BRBs|Salad
-rpcc|north campus|2|Meal Swipe|Breadsticks
-rose|west campus|4|Meal Swipe|Ice Cream
-okenshields|central campus|0|Meal Swipe|Music Playlist
-nasties|north campus|0|BRBs|Calzones
