@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+<meta charset="utf-8">
     <!--Gets static head and required assets-->
     <?php require 'static/head.php';?>
 
