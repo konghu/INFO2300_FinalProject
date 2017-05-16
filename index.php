@@ -24,6 +24,8 @@ faith located in the heart of downtown Waterloo, NY. We are dedicated to spreadi
 the love of God through service to our community and the nurturing of our
 
 congregation. </p>
+       <p>Location: 42 East Main St.</p>
+       <p>Sunday Worship Hours: 10am</p>
     
     <h1>
             What we do

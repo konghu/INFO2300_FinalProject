@@ -190,8 +190,7 @@ staff{
     border: none;
     border-width: thin;
     padding-left: 5px;
-    padding-right: 5px;
-    height: 300px;
+    padding-right: 30px;
 }
 
 .Cell > img{
