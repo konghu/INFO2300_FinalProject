@@ -1,6 +1,7 @@
+<!DOCTYPE html>
+<html lang="en">
 <?php session_start();?>
 
-    <!DOCTYPE html>
     <head>
 
         <!--Gets static head and required assets-->

@@ -17,7 +17,7 @@ html, body {
     padding: 0;
     vertical-align: baseline;
     width: 100%;
-    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: aliceblue;
 }
 
@@ -37,7 +37,17 @@ h3 {
     padding-top: 1em;
 
 }
+#content {
+    padding-top: 5em;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    width: 80%;
+    align-content: center;
+    padding-bottom: 5em;
+    margin-bottom: 5em;
 
+}
 
 #map {
     padding-top: 6em;
@@ -48,6 +58,7 @@ h3 {
     align-content: center;
     padding-bottom: 6em;
     margin-bottom: 5em;
+    height: 400px;
 
 }
 #calendar {
@@ -130,14 +141,57 @@ html,body {
     margin-bottom: 5em;
 }
 
+.calendar{
+    text-align:center;
+}
 
-#content {
-    padding-top: 5em;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
-    width: 100%;
-    align-content: center;
-    padding-bottom: 5em;
-    margin-bottom: 5em;
+staff{
+  display: block;
+  margin: auto;
+}
+
+#staff > img {
+    height: 250px;
+    margin-left: 40px;
+}
+
+#staff > p {
+    margin-top: 20px;
+    margin-left:40px;
+    margin-right: 40px;
+}
+
+.Table
+{
+    display: table;
+}
+.Title
+{
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.Heading
+{
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+}
+.Row
+{
+    display: table-row;
+}
+.Cell
+{   
+    margin-top: 10px;
+    display: table-cell;
+    border: none;
+    border-width: thin;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Cell > img{
+    height: 300px;
 }

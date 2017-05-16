@@ -9,6 +9,7 @@
 
 </head>
 
+    <body>
 <div>
 
     <!--Gets static navigation bar-->
@@ -70,7 +71,7 @@
 
     ?>
 
-
+<div id="content">
         <div class="wrapper">
 
             <?php
