@@ -31,8 +31,8 @@ congregation. </p>
             What we do
         </h1>
     
-    <p>Worship:
-    </p>
+    <p><b>Worship:
+    </b></p>
     <p>
         Sunday services incorporate traditional liturgy and personal sharing in a relaxed
 
@@ -44,28 +44,28 @@ curious energy. Communion is celebrated the first Sunday of every month and on
 
 special holy days.
     </p><br>
-    <p>Christian Education:
-    </p>
+    <p><b>Christian Education:
+    </b></p>
     <p>
-        Sunday School – For grades 1-5 offered during worship
+        Sunday School:  Grades 1-5 - offered during worship<br>
 
-Teen Group – For Middle and High School Youth offered during worship
+        Teen Group – For Middle and High School Youth offered during worship<br>
 
-Ecumenical Bible Study – Fridays at 1 pm in the church lounge
+        Ecumenical Bible Study – Fridays at 1 pm in the church lounge
     </p><br>
-    <p>Community Outreach
-    </p>
-    <p>Friday Free Lunch:
-    </p>
+    <h3><b>Community Outreach
+    </b></h3>
+    <p><b>Friday Free Lunch:
+    </b></p>
     <p>From September through June we provide a free meal every Friday for the
 
 community. We have many “regulars” as well as visitors who come to enjoy a hot
 
 meal and socialize with one another.
     </p><br>
-    <p>
+    <p><b>
         Betsy’s Playroom:
-    </p>
+    </b></p>
     <p>Betsy’s playroom is a play space located at the Five Points Correctional Facility
 
 where small children can receive supervised care while their family members are
@@ -80,8 +80,8 @@ always looking for new volunteers willing to help with this important outreach
 
 effort.
     </p><br>
-    <p>Harmony Food Pantry:
-    </p>
+    <p><b>Harmony Food Pantry:
+    </b></p>
     <p>Founded and directed by Josh McKimm, the Harmony Food Pantry was created to
 
 serve families who needed a pantry they could access on the weekend. The church
