@@ -15,8 +15,8 @@
         </div>
     </div>
 
-    <h1> First Presbyterian Church of Waterloo
-    </h1>
+    <h6> First Presbyterian Church of Waterloo
+    </h6>
 
 </div>
 
