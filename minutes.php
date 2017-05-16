@@ -155,8 +155,7 @@ if(!isset($_POST['submit_logout'])){
 
   }
   else {
-    print "<p>Please login to use this feature</p>
-<p>Mahima, the meeting minutes should still be shown without logging in. Only upload feature is hidden. (Kong)  </p>";
+    print "<p>Please login to use this feature</p>";
   }
 
   ?>
