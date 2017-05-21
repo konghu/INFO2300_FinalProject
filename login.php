@@ -70,7 +70,7 @@
             if ( empty( $post_username ) || empty( $valid_password ) ) {
                 echo"<br>";
                 echo"<p class ='space'>Please enter correct username and password</p>";
-                echo"hwekko<br>";
+                echo"<br>";
             }
             else if ($post_username == "fp_wildcards" && $valid_password ) {
                 echo "<p class='space'>Congratulations, $post_username. You've logged in successfully!";
