@@ -7,7 +7,7 @@
             </h1>
         </div> <!--end banner-->
         <div id="nav_bar">
-            <a href="https://www.youtube.com/watch?v=HyCGQMt129s" target="_blank"> "Seven days without gymnastics makes one weak" </a>
+            <a href="https://www.youtube.com/watch?v=HyCGQMt129s" target="_blank"> "Seven days witekshdfljhagsdjhfgsjkFDhout gymnastics makes one weak" </a>
             
         </div > 
     </div>  
