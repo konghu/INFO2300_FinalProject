@@ -23,16 +23,16 @@ faith located in the heart of downtown Waterloo, NY. We are dedicated to spreadi
 
 the love of God through service to our community and the nurturing of our
 
-congregation. Have a wonderful day! </p><br>
-       <p><b>Location: 42 East Main St.</b></p>
-       <p><b>Sunday Worship Hours: 10am</b></p>
+congregation. </p>
+       <p>Location: 42 East Main St.</p>
+       <p>Sunday Worship Hours: 10am</p>
     
     <h1>
             What we do
         </h1>
     
-    <p><b>Worship:
-    </b></p>
+    <p>Worship:
+    </p>
     <p>
         Sunday services incorporate traditional liturgy and personal sharing in a relaxed
 
@@ -44,28 +44,28 @@ curious energy. Communion is celebrated the first Sunday of every month and on
 
 special holy days.
     </p><br>
-    <p><b>Christian Education:
-    </b></p>
+    <p>Christian Education:
+    </p>
     <p>
-        Sunday School:  Grades 1-5 - offered during worship<br>
+        Sunday School – For grades 1-5 offered during worship
 
-        Teen Group – For Middle and High School Youth offered during worship<br>
+Teen Group – For Middle and High School Youth offered during worship
 
-        Ecumenical Bible Study – Fridays at 1 pm in the church lounge
+Ecumenical Bible Study – Fridays at 1 pm in the church lounge
     </p><br>
-    <h3><b>Community Outreach
-    </b></h3>
-    <p><b>Friday Free Lunch:
-    </b></p>
+    <p>Community Outreach
+    </p>
+    <p>Friday Free Lunch:
+    </p>
     <p>From September through June we provide a free meal every Friday for the
 
 community. We have many “regulars” as well as visitors who come to enjoy a hot
 
 meal and socialize with one another.
     </p><br>
-    <p><b>
+    <p>
         Betsy’s Playroom:
-    </b></p>
+    </p>
     <p>Betsy’s playroom is a play space located at the Five Points Correctional Facility
 
 where small children can receive supervised care while their family members are
@@ -80,8 +80,8 @@ always looking for new volunteers willing to help with this important outreach
 
 effort.
     </p><br>
-    <p><b>Harmony Food Pantry:
-    </b></p>
+    <p>Harmony Food Pantry:
+    </p>
     <p>Founded and directed by Josh McKimm, the Harmony Food Pantry was created to
 
 serve families who needed a pantry they could access on the weekend. The church
@@ -100,7 +100,7 @@ For more information please contact Josh McKimm or visit their facebook page
                     <img src="img/staff_sarah.jpg" alt="Church Pastor - Rev. Sarah West">
                 </div>
                 <div class="Cell">
-                    <p>Sarah has been serving as our pastor since 2007. She has a B.A. in English from Bethany College as well as a M.Div. and M.A. in Social Service Administration from the University of Chicago. She is an ordained minister in the Christian Church (Disciples of Christ) with dual standing in the United Church of Christ. She and her husband and their three children live in Ithaca, NY.  In her free time Sarah enjoys going for walks in the woods, music, dancing, reading and baking.</p>
+                    <p>Has been serving as our pastor since 2007. She has a B.A. in English from Bethany College as well as a M.Div. and M.A. in Social Service Administration from the University of Chicago. She is an ordained minister in the Christian Church (Disciples of Christ) with dual standing in the United Church of Christ. She and her husband and their three children live in Ithaca, NY.  In her free time Sarah enjoys going for walks in the woods, music, dancing, reading and baking.</p>
                 </div>
             </div><br>
             <div class="Row">
