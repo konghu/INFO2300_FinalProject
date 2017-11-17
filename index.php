@@ -17,7 +17,7 @@
 	<?php require 'static/navigation.php';?>
 
 <div id="content"><br>
-    <p>The First Presbyterian Church of Waterloo is a warm and welcoming community of
+    <p>The First Presbyterian Chudsaiusdhfjhadsgfjhsekfhasjhldgfjhasdgfjhsdfkjahsdrch of Waterloo is a warm and welcoming community of
 
 faith located in the heart of downtown Waterloo, NY. We are dedicated to spreading
 
